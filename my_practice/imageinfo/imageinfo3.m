@@ -1,0 +1,10 @@
+%Displaying image in MatLab
+image1 = imread('images\inputs\frame_0000.jpg');
+image2 = imread("images\inputs\frame_0013.jpg");
+image3 = imread("images\outputs\frame_0000.png");
+image4 = imread("images\outputs\frame_0013.png");
+
+subplot(4,1,1); imshow(image1);
+subplot(4,1,2); imshow(image2);
+subplot(4,1,3); imshow(image3);
+subplot(4,1,4); imshow(image4);

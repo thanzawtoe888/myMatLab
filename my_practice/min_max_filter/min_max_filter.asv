@@ -1,0 +1,9 @@
+original = imread("images\inputs\frame_0000.jpg");
+% gs = im2gray(original);
+% BW = imbinarize(gs);
+
+bw2= im2bw(original,0.6);
+% subplot(2,2,1),imshow(BW),title('imbinarize');
+% subplot(2,2,2),imshow(bw2),title('im2bw');
+
+minf
